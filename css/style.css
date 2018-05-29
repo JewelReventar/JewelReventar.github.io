@@ -241,6 +241,13 @@ footer a {
     }
 }
 
+@media screen and (max-width: 765px) {
+    #footer-des {
+        margin-left: 35px;
+    }
+}
+
+
 @media screen and (max-width: 520px) {
     #main-image {
         width: 300px;
