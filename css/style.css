@@ -297,4 +297,16 @@ footer a {
     }
 }
 
+@media screen and (max-wdith: 320px) {
+.work-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:100px;
+    height: 100px;
+
+
+}
+}
+
 
