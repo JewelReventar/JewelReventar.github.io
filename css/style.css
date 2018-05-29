@@ -1,0 +1,293 @@
+
+@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:700";
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body, html, {
+    height: 100%;
+}
+body {
+    background-color: #fff;
+    font-family: Optima, sans-serif;
+}
+
+
+
+#nav-container, #nav-color {
+    background-color: #353b48;
+}
+
+#nav-des {
+    color: #fff;
+    font-weight: 200;
+    font-size: 25px;
+}
+
+
+
+.info {
+    font-weight: 550;
+    font-size: 50px;
+    color: black;
+    text-align: left"
+
+}
+
+.info-1 {
+    color: 	#707070;
+    font-weight: 550;
+    font-size: 25px;
+    text-align: left"
+  
+}
+
+#info-3 {
+    color: 	rgb(200, 201, 148);
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+.drop-holder {
+    
+    display: flex;
+    align-items: center;
+    
+}
+
+.about-me, .my-work {
+  
+  color: #584936;
+  text-decoration: none;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s ease all;
+  overflow:hidden;
+}
+
+.about-me:hover, .my-work:hover {
+
+    color: #FFF;
+
+}
+
+.about-me:focus, .my-work:focus {
+
+    color: #FFF;
+
+}
+
+
+
+.about-me,.my-work {
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    width: 275px;
+    font-weight: bold;
+    padding: 14px 0px;
+    border: 3px solid #584936;
+    border-radius: 2px;
+    position: relative;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .about-me:before, .my-work:before {
+      
+    -webkit-transition: 0.5s all ease;
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: '';
+    background-color: #584936;
+    z-index: -2;
+
+    
+
+  }
+
+  .about-me:hover:before , .my-work:hover:before {
+
+    -webkit-transition: 0.5s all ease;
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+
+  }
+
+  .about-me:focus:before , .my-work:focus:before {
+      
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+
+  }
+
+    #about-me-content {
+        background-color: #efefef;
+    }
+
+
+#about-header {
+
+    font-weight: 800;
+    font-size: 60px;
+    color: black;
+    
+}
+
+#about-info {
+
+    font-size: 23px;
+    color: 	#707070;
+    
+}
+
+
+.icon-holder {
+    display: flex;
+    align-items: center;
+}
+
+#skill-set-content {
+    height: auto;
+    background-color: #efefef;
+}
+
+.skill-holder {
+    border-radius: 2px;
+    background-color: #ffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.skill-info {
+    font-size: 13px;
+
+}
+
+.work-holder {
+    border-radius: 2px;
+    align-content: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.16), 2px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+#img-holder {
+    background-color: #efefef;
+}
+
+.work-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:250px;
+    height: 250px;
+
+
+}
+
+.work-info {
+    color: #707070;
+    
+}
+
+#port-img {
+
+    
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.16), 2px 3px 6px rgba(0, 0, 0, 0.1);
+
+}
+footer {
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+#contact-header {
+    font-weight: 400;
+    font-size: 45px;
+}
+
+.contact-info {
+    font-size: 15px;
+    color: #707070;
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    #main-image {
+        width: 400px;
+        height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    #main-image {
+        width: 300px;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    #main-image {
+        width: 200px;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    #about-img {
+        display: block;
+        width:200px;
+        height:200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+   
+    .info {
+        font-size: 30px;
+        display: block;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .info-1 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .about-me, .my-work {
+        font-size: 10px;
+    }
+}
+
+
